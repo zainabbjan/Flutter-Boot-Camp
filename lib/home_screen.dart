@@ -16,6 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final snapshot = await _firestore.collection('user').get();
 
     users = snapshot.docs.map((data) => data.data()).toList();
+    print('$users');
     return users;
   }
 
@@ -78,7 +79,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         height: 50,
                         width: 50,
                         decoration: BoxDecoration(
-                          
                             color: Colors.grey, shape: BoxShape.circle),
                         child: Icon(Icons.person),
                       ),

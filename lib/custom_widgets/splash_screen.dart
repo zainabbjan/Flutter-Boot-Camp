@@ -20,6 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
         MaterialPageRoute(builder: (context) => HomeScreen()),
       );
     } else {
+      Future.delayed(Duration(seconds: 4));
       Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => SignUpScreen()),
