@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "469948772371",
+    "project_id": "gdscicup-fd49d",
+    "storage_bucket": "gdscicup-fd49d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469948772371:android:594812a841301a7453cfe6",
+        "android_client_info": {
+          "package_name": "com.example.flutterworkshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0VugnLHUWjCCVTqvw-qTsPG46stTZgD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
